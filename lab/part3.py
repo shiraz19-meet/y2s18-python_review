@@ -3,6 +3,9 @@
 class Cipher:
 
 	def __init__(self, secret_message, key, limit):
+		self.secret_message= secret_message>1
+		self.key= key>1
+		self.limit=limit
 		pass
 
 	def encode(self):
